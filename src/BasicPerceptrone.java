@@ -11,7 +11,7 @@ public class BasicPerceptrone {
 		Random random = new Random();
 		wb = (random.nextFloat() - 0.5f) * 2f;
 		w0 = (random.nextFloat() - 0.5f) * 2f;
-		w0 = (random.nextFloat() - 0.5f) * 2f;
+		w1 = (random.nextFloat() - 0.5f) * 2f;
 	}
 
 	public int guess(float x0, float x1) {
